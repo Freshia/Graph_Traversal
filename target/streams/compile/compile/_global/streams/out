@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0mF:\Fun Stuff\Depth_First_Search\src\main\scala\main.scala:35:43: illegal start of simple pattern[0m
+[0m[[0m[31merror[0m] [0m[0m        for (i<-0 to number_of_locations; for j<-0 to number_of_locations){[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mF:\Fun Stuff\Depth_First_Search\src\main\scala\main.scala:40:5: '<-' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m    }[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

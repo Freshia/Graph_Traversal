@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging F:\Fun Stuff\Depth_First_Search\target\scala-2.11\depth_first_search_2.11-0.1.0-SNAPSHOT1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	graph$$anonfun$1$$anonfun$apply$mcVI$sp$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  F:\Fun Stuff\Depth_First_Search\target\scala-2.11\classes\graph$$anonfun$1$$anonfun$apply$mcVI$sp$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	graph$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  F:\Fun Stuff\Depth_First_Search\target\scala-2.11\classes\graph$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	graph.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  F:\Fun Stuff\Depth_First_Search\target\scala-2.11\classes\graph.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  F:\Fun Stuff\Depth_First_Search\target\scala-2.11\classes\main$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  F:\Fun Stuff\Depth_First_Search\target\scala-2.11\classes\main$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  F:\Fun Stuff\Depth_First_Search\target\scala-2.11\classes\main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  F:\Fun Stuff\Depth_First_Search\target\scala-2.11\classes\main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	stack.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  F:\Fun Stuff\Depth_First_Search\target\scala-2.11\classes\stack.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	transversing$$anonfun$getadj_unvisited$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  F:\Fun Stuff\Depth_First_Search\target\scala-2.11\classes\transversing$$anonfun$getadj_unvisited$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	transversing$$anonfun$reset$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  F:\Fun Stuff\Depth_First_Search\target\scala-2.11\classes\transversing$$anonfun$reset$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	transversing.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  F:\Fun Stuff\Depth_First_Search\target\scala-2.11\classes\transversing.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Vertex.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  F:\Fun Stuff\Depth_First_Search\target\scala-2.11\classes\Vertex.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
