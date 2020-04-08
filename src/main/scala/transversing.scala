@@ -17,12 +17,12 @@ class transversing(start_location:Int){
         return present
     }
     def print_vertex(v: Int,locations:Array[Vertex]){
-        println(locations(v))
+        println(locations(v).vertex_name)
     }
     def dfs(locations: Array[Vertex], adj_matrix: Array[Array[Int]], number_of_locations:Int):Unit = {
         
         println("My start locatin")
-        println(locations(start_location).vertex_name)
+        //println(locations(start_location).vertex_name)
         locations(start_location).wasVisited = true
         thestack.push(start_location)
         print_vertex(start_location,locations)
