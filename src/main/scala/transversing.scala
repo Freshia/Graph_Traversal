@@ -3,9 +3,6 @@ class transversing(start_location:Int){
 
     val mygraph: graph = new graph();
     val thestack: stack = new stack(20)
-    //val locations:Array[Vertex] = mygraph.get_locations()
-    
-    // var number_of_locations = mygraph.get_size()
     
     def getadj_unvisited(v:Int,locations:Array[Vertex], adj_matrix: Array[Array[Int]], number_of_locations:Int ): Int = {
         var present:Int = -1
@@ -21,8 +18,8 @@ class transversing(start_location:Int){
     }
     def dfs(locations: Array[Vertex], adj_matrix: Array[Array[Int]], number_of_locations:Int):Unit = {
         
-        println("My start locatin")
-        //println(locations(start_location).vertex_name)
+        println("My start location")
+        println(locations(start_location).vertex_name)
         locations(start_location).wasVisited = true
         thestack.push(start_location)
         print_vertex(start_location,locations)
