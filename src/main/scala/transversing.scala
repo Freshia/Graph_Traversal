@@ -9,7 +9,7 @@ class transversing(start_location:Int){
     
     def getadj_unvisited(v:Int): Int = {
         var present:Int = -1
-        for(j<-0 to number_of_locations){
+        for(j<-0 to number_of_locations - 1){
             if(adj_matrix(v)(j) != 0 && locations(j).wasVisited == false){
                     present = j
             }
@@ -20,6 +20,8 @@ class transversing(start_location:Int){
         println(locations(v))
     }
     def dfs():Unit = {
+        println("My start locatin")
+        println(start_location)
         locations(start_location).wasVisited = true
         thestack.push(start_location)
         print_vertex(start_location)
