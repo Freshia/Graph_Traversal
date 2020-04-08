@@ -1,5 +1,5 @@
 
 class Vertex(name: String){
     var wasVisited:Boolean = false
-    //val name:String = name
+    val vertex_name:String = name
 }
