@@ -16,9 +16,10 @@ class graph{
     def add_vertex(name: String):Unit = {
         val vertex = new Vertex(name);
         vertices(no_of_vertex) = vertex
+        println("Added vertex " + no_of_vertex)
         no_of_vertex +=1
-        println("Added vertex")
-        println(vertices(no_of_vertex-1).name)
+        
+        println(vertices(no_of_vertex-1).vertex_name)
     }
     def get_size():Int = {
         return no_of_vertex

@@ -4,6 +4,9 @@ object main{
     val my_graph = new graph()
 
     def main(args: Array[String]){
+        val locations:Array[Vertex] = my_graph.get_locations()
+        val adj_matrix= my_graph.adj_matrix
+        var number_of_locations = my_graph.get_size()
 		my_graph.add_vertex("A"); // 0
 		my_graph.add_vertex("B"); // 1
 		my_graph.add_vertex("C"); // 2
@@ -27,8 +30,8 @@ object main{
 		my_graph.add_edge(4, 9); //EJ
 
         println("Visits: ")
-        my_bus.dfs()
-        my_bus.reset()
+        my_bus.dfs(locations,adj_matrix,number_of_locations)
+        my_bus.reset(locations, number_of_locations)
     }
 
     
