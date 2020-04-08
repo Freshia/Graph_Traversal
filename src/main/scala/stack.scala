@@ -15,7 +15,7 @@ class stack(max_elements: Int){
         //return elements_array(top_pointer)
     }
     def peek():Int = {
-        return top_pointer
+        return elements_array(top_pointer)
     }
     def isEmpty():Boolean = {
         var empty_state:Boolean = false
