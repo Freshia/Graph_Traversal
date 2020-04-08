@@ -10,9 +10,7 @@ class stack(max_elements: Int){
         elements_array(top_pointer)= element
     }
     def pop():Unit = {
-        //elements_array(top_pointer) = null
         top_pointer = top_pointer - 1
-        //return elements_array(top_pointer)
     }
     def peek():Int = {
         return elements_array(top_pointer)
