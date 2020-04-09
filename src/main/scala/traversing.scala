@@ -1,4 +1,4 @@
-
+import scala.util.control.Breaks._
 class transversing(start_location:Int){
 
     val mygraph: graph = new graph();
@@ -6,10 +6,13 @@ class transversing(start_location:Int){
     
     def getadj_unvisited(v:Int,locations:Array[Vertex], adj_matrix: Array[Array[Int]], number_of_locations:Int ): Int = {
         var present:Int = -1
+        breakable{
         for(j<-0 to number_of_locations - 1){
             if(adj_matrix(v)(j) != 0 && locations(j).wasVisited == false){
                     present = j
+                    break;
             }
+        }
         }
         return present
     }
